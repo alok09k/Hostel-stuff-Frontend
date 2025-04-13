@@ -7,7 +7,7 @@ function AppContextProvider({ children }) {
   const [showAuth, setShowAuth] = useState(false);
   const [showLogin, setShowLogin] = useState(false);
   const[userDetails,setUserDetails] = useState(null);
-  const apiUrl = "http://localhost:3000";
+  const apiUrl = "https://hostel-stuff-backend.onrender.com";
 
   const value = {
     showAuth,
